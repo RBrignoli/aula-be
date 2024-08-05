@@ -1,0 +1,91 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Smartphone",
+        "descricao": "Smartphone de última geração",
+        "preco": 1500.00,
+        "imagem": "smartphone.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Camiseta",
+        "descricao": "Camiseta de algodão",
+        "preco": 30.00,
+        "categoria_id": 2,
+        "imagem": "camiseta.jpg"
+      },
+      {
+        "id": 3,
+        "nome": "Vaso de Flores",
+        "descricao": "Vaso de flores decorativo",
+        "preco": 50.00,
+        "categoria_id": 3,
+        "imagem": "vaso_flores.jpg"
+      }
+    ],
+    "clientes": [
+      {
+        https://meet.google.com/rpj-ytpx-biz
+        "id": 1,
+        "nome": "João Silva",
+        "email": "joao.silva@example.com",
+        "senha": "123456",
+        "endereco": {
+          "rua": "Rua dos Pinheiros",
+          "numero": 123,
+          "bairro": "Centro",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01234-567"
+        }
+      },
+      {
+        "id": 2,
+        "nome": "Maria Oliveira",
+        "email": "maria.oliveira@example.com",
+        "senha": "abcdef",
+        "endereco": {
+          "rua": "Rua das Flores",
+          "numero": 456,
+          "bairro": "Jardim",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "98765-432"
+        }
+      }
+    ],
+    "pedidos": [
+      {
+        "id": 1,
+        "cliente_id": 1,
+        "data_pedido": "2022-01-01",
+        "status": "pendente",
+        "itens": [
+          {
+            "produto_id": 1,
+            "quantidade": 2,
+            "preco_unitario": 1500.00
+          },
+          {
+            "produto_id": 2,
+            "quantidade": 1,
+            "preco_unitario": 30.00
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "cliente_id": 2,
+        "data_pedido": "2022-01-15",
+        "status": "entregue",
+        "itens": [
+          {
+            "produto_id": 3,
+            "quantidade": 1,
+            "preco_unitario": 50.00
+          }
+        ]
+      }
+    ]
+  }
